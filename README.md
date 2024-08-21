@@ -59,10 +59,12 @@ Model performance is evaluated on a validation set after training, with accuracy
 
 | Learning Rate | Momentum | Batch Size | Optimizer Type | Accuracy |
 |---------------|----------|------------|----------------|----------|
-| 0.01          | 0.9      | 32         | SGD            | XX%      |
-| Placeholder   | Placeholder | Placeholder | Placeholder | Placeholder |
+| 0.01          | 0.9      | 32         | SGD            | 76%      |
+| 0.001         | 0.99     | 32         | SGD            | 55%      |
+| 0.001         | 0.9      | 64         | Adam           | 86%      |
+| 0.001         | 0.9      | 128        | Adam           | 83%      |
+| 0.01          | 0.9      | 64         | SGD            | 90%      |
 
-*Please update the placeholders with actual values.*
 
 ### Graphical Representations
 
