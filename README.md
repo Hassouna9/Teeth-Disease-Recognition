@@ -1,12 +1,4 @@
-# Teeth-Disease-Recognition
-
-Creating a README file for your GitHub repository is an excellent way to document your project, making it accessible and understandable to other developers and stakeholders. Here's a template for a README that outlines your project, focusing on key elements and leaving placeholders for detailed results and graphical representations.
-
-### README.md Template for TeethNet Project
-
----
-
-## TeethNet: Deep Learning for Teeth Classification
+#### TeethNet: Deep Learning for Teeth Classification
 
 ### Project Overview
 TeethNet is a convolutional neural network designed to classify dental images into various categories of teeth. This model is built using PyTorch and tested using a custom dataset that includes images of different types of teeth prepared for machine learning applications.
@@ -48,8 +40,8 @@ This architecture is designed to efficiently process and classify images based o
 ### Training
 
 The model is trained using stochastic gradient descent (SGD) with cross-entropy loss. Key training parameters include:
-- **Optimizer**: SGD with configurable learning rate and momentum.
-- **Epochs**: Model training is configurable but typically set for 10 epochs.
+- **Optimizer**: Either SGD with configurable learning rate and momentum or Adam optmizer.
+- **Epochs**: Model training is configurable but typically set for 20-30 epochs.
 
 ### Results and Evaluation
 
@@ -77,10 +69,4 @@ Model performance is evaluated on a validation set after training, with accuracy
 
 After validation, the model's accuracy is calculated, and its parameters are saved to `TeethModel.pth` for future use. This ensures that the model can be deployed or further developed without the need for retraining.
 
-### Usage
 
-Instructions on how to load the model and make predictions on new data should be included here.
-
-### Conclusions
-
-Summary of the project findings, model's strengths, limitations, and potential applications in dental imaging and diagnosis.
