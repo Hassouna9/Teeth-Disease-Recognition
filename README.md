@@ -66,10 +66,10 @@ Model performance is evaluated on a validation set after training, with accuracy
 
 ### Graphical Representations
 
-- **Accuracy vs. Epoch**: Graph showing how accuracy changes with each epoch during training.
-  - *Graph to be added here.*
-- **Loss vs. Epoch**: Graph showing changes in training and validation loss over epochs.
-  - *Graph to be added here.*
+- **B. Accuracy vs. Epoch**: Graph showing how accuracy changes with each epoch during training.
+- **A. Loss vs. Epoch**: Graph showing changes in training and validation loss over epochs.
+  
+  ![Accuracy Tracing](https://github.com/Hassouna9/Teeth-Disease-Recognition/blob/main/graph.png)
 
 ### Model Evaluation and Saving
 
