@@ -1,4 +1,4 @@
-#### TeethNet: Deep Learning for Teeth Classification
+### TeethNet: Deep Learning for Teeth Classification
 
 ### Project Overview
 TeethNet is a convolutional neural network designed to classify dental images into various categories of teeth. This model is built using PyTorch and tested using a custom dataset that includes images of different types of teeth prepared for machine learning applications.
